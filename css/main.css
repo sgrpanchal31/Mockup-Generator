@@ -2,7 +2,9 @@ body{
 	text-align: center   !important;
 	background-color:#BC243C !important;
 	background-color:white !important;
-	/*color:#034F84           !important;*/
+
+}
+.progress{
 }
 .sideNav{
 	background-color:#034F84 !important;
@@ -10,7 +12,7 @@ body{
 	height:100vh;
 }
 .sideNav h1{
-	font-size: 50px;
+	font-size: 72px;
 	margin-bottom: 40px;
 }
 #selectSs{
@@ -24,4 +26,18 @@ canvas#baseLayer{
 	width:600px;
 	height:450px;
 
+}
+input[type="file"] {
+    display: none;
+}
+label{
+	cursor: pointer;
+	background-color: white;
+	color:#034F84;
+	padding:6px 8px;
+	border-radius: 4px;
+	margin-bottom: 50px;
+}
+label:hover{
+	text-decoration:underline;
 }
