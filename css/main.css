@@ -1,0 +1,27 @@
+body{
+	text-align: center   !important;
+	background-color:#BC243C !important;
+	background-color:white !important;
+	/*color:#034F84           !important;*/
+}
+.sideNav{
+	background-color:#034F84 !important;
+	color:white           !important;
+	height:100vh;
+}
+.sideNav h1{
+	font-size: 50px;
+	margin-bottom: 40px;
+}
+#selectSs{
+	margin:60px         !important;
+}
+.disabled{
+	cursor: not-allowed;
+}
+canvas#baseLayer{
+	margin-top: 80px;
+	width:600px;
+	height:450px;
+
+}
